@@ -8,8 +8,8 @@
 - pandas
 - awscli
 - click
-- tkdm
-- PyTorch
+- tqdm
+- torch
 
 ## Usage example on AWS
 
