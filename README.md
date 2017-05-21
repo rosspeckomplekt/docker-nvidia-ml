@@ -19,7 +19,7 @@ See official wiki: [Deploy on Amazon EC2](https://github.com/NVIDIA/nvidia-docke
 Then, on the remote machine try
 
 ```
-$ nvidia-docker run --rm -it nvidia/cuda python
+$ nvidia-docker run --rm -it sotetsuk/nvidia-ml python
 Python 3.6.0 |Continuum Analytics, Inc.| (default, Dec 23 2016, 12:22:00)
 [GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux
 Type "help", "copyright", "credits" or "license" for more information.
