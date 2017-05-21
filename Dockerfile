@@ -11,7 +11,7 @@ RUN echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh && \
     rm ~/miniconda.sh
 
 # Install python packages
-RUN /opt/conda/bin/conda install -y scikit-learn numpy scipy pandas \
+RUN /opt/conda/bin/conda install -y scikit-learn numpy scipy pandas && \
     /opt/conda/bin/pip install awscli click tkdm
 
 # Install PyTorch
